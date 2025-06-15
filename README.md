@@ -1,9 +1,11 @@
 **Book Reading Pace Analyzer**
+
 This tool is like a simple digital notebook for your reading. It automatically remembers all your past reading times by keeping a record in a special file. When you tell it how many pages you read and for how long, it quickly adds that to your record, also noting the date and time. This tool then uses simple math to figure out how many pages you read per hour, both overall and for each book you've tracked. It's a straightforward helper for keeping tabs on your reading pace, using clear steps to store and show your reading habits. It's not a complex thinking machine or an AI learning system, just a helpful organizer.
 
 The development of this tool primarily relies on basic programming methods. This includes setting up named sections for different parts of the data (like objects), working with simple text files (like JSON files) to save and load information, making decisions using 'if' statements, and repeating steps using 'for' loops for tasks like adding up totals or counting sessions. These are fundamental ways computers handle and process information, rather than advanced learning algorithms.
 
 **Car Price Prediction**
+
 The code is designed to predict the selling prices of used cars. It begins by collecting car information and then cleans it, making sure all details, such as fuel type or seller type, are ready for analysis. After setting aside some data for testing, it employs different simple math models, like Linear Regression and Lasso Regression, to discover how car features influence their selling prices. The accuracy of these predictions is then checked against the actual prices.
 
 To achieve this, the process relies on methods for handling data, such as converting text details into numbers (encoding). The main tools used are two types of learning models: Linear Regression, which aims to find a direct relationship in the data, and Lasso Regression, a similar method that also helps pinpoint the most significant features. The performance of these predictions is measured using a score called R-squared, and visual comparisons are presented showing the estimated prices against the actual ones. These approaches are standard ways to teach computers to make informed predictions.
